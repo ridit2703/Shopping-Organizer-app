@@ -58,7 +58,8 @@ This project demonstrates:
 
 ## 📸 Screenshots
 
-(Screenshot.png)
+![Homepage Screenshot](./assets/Screenshot.png)
+
 
 ---
 
