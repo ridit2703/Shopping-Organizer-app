@@ -1,0 +1,167 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Body */
+body {
+    background: #f4f6f8;
+    padding: 20px;
+}
+
+/* heading */
+h1 {
+    color: #007bff;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Container */
+.container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+/* Input section */
+.itemDetail {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#itemDetail {
+    padding: 10px;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+#itemDetail:focus {
+    border-color: #007bff;
+}
+
+#submitBtn {
+    padding: 10px 15px;
+    margin-left: 10px;
+    border: none;
+    background: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#submitBtn:hover {
+    background: #0056b3;
+}
+
+/* Boxes */
+.box {
+    background: white;
+    width: 250px;
+    min-height: 300px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.box h3 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Lists */
+ul {
+    list-style: none;
+    min-height: 200px;
+}
+
+/* List items */
+li {
+    background: #e9ecef;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: grab;
+    transition: 0.2s;
+}
+
+li:hover {
+    background: #d6d8db;
+}
+
+/* Dragging effect */
+li:active {
+    cursor: grabbing;
+    opacity: 0.6;
+}
+
+/* Delete button */
+li button {
+    background: red;
+    color: white;
+    border: none;
+    padding: 5px 8px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+li button:hover {
+    background: darkred;
+}
+
+/* Input while editing */
+li input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+}
+
+/* Drop highlight */
+ul.drag-over {
+    background: #d0ebff;
+    border: 2px dashed #007bff;
+}
+
+/* Bottom buttons */
+.bottomBtn {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.bottomBtn input {
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#completeBtn {
+    background: green;
+    color: white;
+}
+
+#completeBtn:hover {
+    background: darkgreen;
+}
+
+#resetBtn {
+    background: crimson;
+    color: white;
+}
+
+#resetBtn:hover {
+    background: darkred;
+}

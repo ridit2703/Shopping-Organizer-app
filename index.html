@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 style="text-align:center; margin-bottom:20px;">Shopping Organizer</h1>
+    <div class="container">
+        <div class="itemDetail">
+            <input type="text" placeholder="enter the item" id="itemDetail">
+            <input type="button" name="" id="submitBtn" value="Submit">
+        </div>
+        <div class="box">
+            <h3>To Buy List </h3>
+           <div class="listContainer">
+             <ul id="itemList"></ul>
+           </div>
+        </div>
+        <div class="box">
+            <h3> Not Found List</h3>
+            <ul class="itemList"></ul>
+        </div>
+        <div class="box">
+            <h3> Bought List </h3>
+            <ul class="itemList"></ul>
+        </div>
+    </div>
+    <div class="bottomBtn">
+        <input type="button" name="" id="completeBtn" value="Complete">
+        <input type="button" name="" id="resetBtn" value="Reset">
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
